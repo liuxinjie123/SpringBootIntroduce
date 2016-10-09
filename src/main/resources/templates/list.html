@@ -1,0 +1,18 @@
+<div th:if="${not #lists.isEmpty(personList}}">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">列表</h3>
+        </div>
+        <div class="panel-body">
+            <ul class="list-group">
+                <li class="list-grup-item" th:each="person:${personList}">
+                    <span th:text="${person.name}"></span>
+                    <span th:text="${person.sex}"></span>
+                    <span th:text="${person.position}"></span>
+                    <span th:text="${person.phone}"></span>
+                    <button class="btn" th:onclick="'showDetail(\'' + ${person.id} + '\');'">详细</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
