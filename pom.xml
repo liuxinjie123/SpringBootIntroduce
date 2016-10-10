@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.dream</groupId>
-	<artifactId>dream021</artifactId>
+	<artifactId>springboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>dream021</name>
+	<name>springBootIntroduce</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
