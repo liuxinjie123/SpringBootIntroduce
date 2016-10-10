@@ -11,7 +11,7 @@ public class Result implements Serializable {
     public boolean success;
     public String error;
     public Integer errorCode;
-    private Map<String, Object> data;
+    public Map<String, Object> data;
 
     public Result setSuccess(boolean success) {
         this.success = success;
@@ -29,7 +29,7 @@ public class Result implements Serializable {
     }
 
     public Result putData(String name, Object object) {
-        if(data == null){ data = new HashMap<>(); }
+        if(data == null) { data = new HashMap<>(); }
         this.data.put(name, object);
         return this;
     }
