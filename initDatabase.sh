@@ -3,7 +3,7 @@
 # create database bid
 
 USER="root"
-DATABASE="dream001"
+DATABASE="hello_springboot"
 
 
 # 1,create database
@@ -15,6 +15,6 @@ EOF
 
 # 2,grant right
 mysql -u $USER << EOF
-grant all on dream001.* to 'mysql'@127.0.0.1 identified by 'mysql'
+grant all on hello_springboot.* to 'mysql'@127.0.0.1 identified by 'mysql'
 EOF
 [ $? -eq 0 ] && echo "grant right success" || echo "grant right failure"
