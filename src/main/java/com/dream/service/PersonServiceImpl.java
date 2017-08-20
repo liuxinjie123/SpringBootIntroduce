@@ -1,4 +1,4 @@
-package com.dream.controller.service;
+package com.dream.service;
 
 import com.dream.controller.api.PersonService;
 import com.dream.mapper.PersonMapper;
