@@ -1,4 +1,4 @@
-package com.dream.controller.api;
+package com.dream.api;
 
 import com.dream.representation.PersonObject;
 

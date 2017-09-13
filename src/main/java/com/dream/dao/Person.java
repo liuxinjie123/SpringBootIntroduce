@@ -1,4 +1,4 @@
-package com.dream.entity;
+package com.dream.dao;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

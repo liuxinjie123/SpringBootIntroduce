@@ -3,7 +3,7 @@
 
 <mapper namespace="com.dream.mapper.PersonMapper">
 
-    <select id="findById" parameterType="java.lang.Long" resultType="com.dream.entity.Person">
+    <select id="findById" parameterType="java.lang.Long" resultType="com.dream.dao.Person">
         select * from hello_person where id = #{id,jdbcType=BIGINT}
     </select>
 

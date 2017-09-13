@@ -1,6 +1,6 @@
 package com.dream.service;
 
-import com.dream.controller.api.PersonService;
+import com.dream.api.PersonService;
 import com.dream.mapper.PersonMapper;
 import com.dream.representation.PersonObject;
 import com.dream.utils.BeanMapper;

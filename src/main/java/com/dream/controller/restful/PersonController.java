@@ -1,6 +1,6 @@
 package com.dream.controller.restful;
 
-import com.dream.controller.api.PersonService;
+import com.dream.api.PersonService;
 import com.dream.representation.result.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

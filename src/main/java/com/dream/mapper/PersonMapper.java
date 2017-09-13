@@ -1,6 +1,6 @@
 package com.dream.mapper;
 
-import com.dream.entity.Person;
+import com.dream.dao.Person;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
